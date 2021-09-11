@@ -1,0 +1,40 @@
+.header {
+  height: 60px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+
+  .menu-btn {
+    margin-left: 10px;
+    cursor: pointer;
+    display: flex;
+    .menu-icon {
+      margin-right: 15px;
+    }
+    .logo {
+      font-family: cursive;
+      font-size: 20px;
+      font-weight: 600;
+      color: #ffbf69;
+    }
+  }
+  .download-btn {
+    display: flex;
+    border: 1px solid #ffbf69;
+    color: #ffbf69;
+    height: 35px;
+    width: 120px;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 8px;
+    justify-content: space-around;
+    margin-right: 50px;
+    cursor: pointer;
+
+    .download-icon {
+    }
+  }
+}
