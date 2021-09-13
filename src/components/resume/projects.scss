@@ -1,0 +1,12 @@
+.projects_div {
+  display: flex;
+  &__label {
+    color: #ffb703;
+    border-radius: 9px;
+    width: 120px;
+    text-align: center;
+    padding: 5px;
+    background: #003049;
+    margin-bottom: 3px;
+  }
+}

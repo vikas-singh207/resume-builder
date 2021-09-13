@@ -1,5 +1,21 @@
 .resume {
   font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+
+  .headerOverlay {
+    height: 150px;
+    width: 65%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 2;
+    position: absolute;
+  }
+  .socialOverlay {
+    height: 210px;
+    width: 23%;
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    z-index: 2;
+    top: 225px;
+  }
   &__header {
     padding-left: 120px;
     padding-top: 20px;
@@ -41,7 +57,7 @@
       border: 1px solid green;
       .social {
         border-bottom: 1px solid black;
-        padding-bottom: 5px;
+        padding-bottom: 10px;
         .social-links {
           display: flex;
           .social-icons {
@@ -60,8 +76,21 @@
       }
 
       .skillset {
+        border-bottom: 1px solid black;
+        padding-bottom: 10px;
+        padding-top: 10px;
         &__label {
           color: #ffb703;
+          margin-bottom: 10px;
+        }
+      }
+
+      .projects {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        &__label {
+          color: #ffb703;
+          margin-bottom: 10px;
         }
       }
     }
